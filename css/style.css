@@ -1,0 +1,33 @@
+/*
+Une fois que le parent possède display : grid, 
+Toute la magie vient de l'ajustement de grid-template-columns : repeat(NUM_COLUMNS, 1fr) 
+Pour les différents points de rupture des médias (@media (min-width : SOME_WIDTH){}).
+*/
+html { font-size: 22px; }
+body { padding: 1rem; }
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  background-color: tomato;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+/*
+@media (min-width: 600px) {
+  #container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  #container { grid-template-columns: repeat(3, 1fr); }
+}
+*/
