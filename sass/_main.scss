@@ -2,11 +2,54 @@ html {
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
 }
-
-img{
+body{
+    margin: 1em;
+}
+img {
     width: 100%;
     height: auto;
 }
-input{
+input {
     display: block;
+}
+h1 {
+    font-size: 2rem;
+    color: yellowgreen;
+}
+h2 {
+    font-size: 1.7rem;
+    color: blue;
+}
+h3 {
+    font-size: 1.3rem;
+    color: darkmagenta;
+}
+#main-nav{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        li {
+            font-size: 1.2em;
+            a{
+                color: darkmagenta;
+                transition: color 1s;
+                text-decoration: none;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.box {
+    box-sizing:content-box;
+    width: 100px;
+    padding: 10px;
+    border: 5px red solid;
+    margin: 10px;
+    background-color: silver;
+    text-align: center;
 }
