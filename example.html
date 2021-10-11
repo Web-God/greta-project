@@ -6,24 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.png" sizes="16x16 32x32" type="image/png">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Formation HTML et CSS</title>
 </head>
 
 <body>
-    <div id="container">
-        <!-- Ceci est une entité HTML : &lt; -->
-        <h1>Formation HTML &amp; CSS</h1>
-        <p>Un lien vers la page d'accueil de <a href="https://developer.mozilla.org/fr/" target="_blank">Resources for developers, by developers.</a>.</p>
-        <h2>Une formation trop bien</h2>
-        <p>Souriez !</p>
-        <!-- URL valeur relative -->
-        <img src="https://via.placeholder.com/1500x190.png?text=1500 default" alt="sourire" srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w">
-        <!-- URL valeur absolue -->
-        <a href="https://www.monsite.fr" title="Tout sur le shifting"></a>
-    </div>
     <header>
+        <div id="header-container">
+            <!-- Ceci est une entité HTML : &lt; -->
+            <h1>Formation HTML &amp; CSS</h1>
+            <p>Un lien vers la page d'accueil de <a href="https://developer.mozilla.org/fr/" target="_blank">Resources for developers, by developers.</a>.</p>
+            <h2>Une formation trop bien</h2>
+            <p>Souriez !</p>
+            <!-- URL valeur relative -->
+            <img src="https://via.placeholder.com/1500x190.png?text=1500 default" alt="sourire" srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w">
+            <!-- URL valeur absolue -->
+            <a href="https://www.monsite.fr" title="Tout sur le shifting"></a>
+        </div>
         <nav id="main-nav">
             <ul>
                 <li class="nav-item"><a href="#">item 1</a></li>
@@ -67,6 +66,8 @@
                 <img src="../img/smile.jpg" alt="Souriez !">
                 <figcaption>Vous êtes filmez !</figcaption>
             </figure>
+            <h3>Le modèle de boîte</h3>
+            <div class="box">Boîte</div>
             <h3>Les listes</h3>
             <!--Des exemples de listes ordonnées-->
             <p>Liste n°1 :</p>
