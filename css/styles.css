@@ -116,6 +116,14 @@ h3 {
   text-align: center;
 }
 
+.img-smile {
+  width: 200px;
+}
+
+.info {
+  color: tomato;
+}
+
 .card {
   background-color: dodgerblue;
   color: white;
