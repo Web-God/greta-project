@@ -19,9 +19,9 @@
             <h2>Une formation trop bien</h2>
             <p>Souriez !</p>
             <!-- URL valeur relative -->
-            <img src="https://via.placeholder.com/1500x190.png?text=1500 default" alt="Sourire" srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w">
+            <img src="https://via.placeholder.com/1500x190.png?text=1500+default" alt="Sourire" srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w" sizes="100vw">
             <!-- URL valeur absolue -->
-            <a href="https://www.monsite.fr" title="Tout sur le shifting"></a>
+            <a href="https://www.monsite.fr" title="Tout sur le shifting">Tout sur le shifting</a>
         </div>
         <nav id="main-nav">
             <ul>
@@ -47,16 +47,21 @@
                     </aside>
                     <h5>Titre de niveau 5</h5>
                     <h6>Titre de niveau 6</h6>
-                    <p id="anchor"><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. <br> Cupiditate soluta
+                    <p id="anchor">Ancre</p>
+                    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. <br> Cupiditate soluta
                         odio quam aliquam voluptate totam doloremque dignissimos harum, architecto quidem incidunt natus
                         laboriosam sint fuga. <span class="info">Inventore obcaecati quam natus</span>.
                         <br> Cupiditate accusamus <b>nulla</b>, excepturi dicta magnam totam quas eum obcaecati
                         reprehenderit mollitia, enim quo earum vero ipsam voluptates sit modi rem repellat dolore
                         repudiandae ab. <span class="info">Quae consectetur</span> similique distinctio et.
-                        <hr> Similique rem <em>provident minus ipsa repudiandae</em>, amet sequi deserunt
+                    </hr> Similique rem <em>provident minus ipsa repudiandae</em>, amet sequi deserunt
                         <i>voluptate</i>, hic, quas quo sapiente! Repellendus assumenda magni, accusantium, dolorem
-                        ipsum ex, suscipit harum eligendi consequatur amet sequi illum <span class="info">cupiditate dolores</span>?
+                        ipsum ex, suscipit harum eligendi consequatur amet sequi illum <span class="info">cupiditate dolores</span>
                     </p>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam molestias assumenda beatae obcaecati soluta excepturi modi iusto similique officiis! Itaque quisquam fugit beatae libero nisi neque ratione, aut dolor.
+                    Similique minima aperiam unde impedit sit a porro quasi molestias officiis atque vitae aspernatur quod sequi soluta ratione fugit iusto blanditiis deleniti esse velit quibusdam, tempora quis? Iste, nesciunt amet!
+                    Voluptas facilis consequuntur aperiam fuga qui assumenda quis quasi suscipit consequatur eum cupiditate iste quaerat consectetur debitis pariatur excepturi magnam sed ut accusantium, distinctio recusandae molestiae laudantium id. Incidunt, consectetur?</p>
                 </div>
             </article>
         </section>
@@ -144,14 +149,15 @@
             </ol>
         </section>
         <section>
-            <form action="#">
+            <h2>Formulaire de Contact</h2>
+            <form action="contact.php" method="post">
                 <fieldset>
                     <label for="name">Nom</label>
-                    <input type="text">
+                    <input type="text" id="name">
                     <label for="phone">Téléphone</label>
-                    <input type="number">
+                    <input type="number" id="phone">
                     <label for="email">Email</label>
-                    <input type="email">
+                    <input type="email" id="email">
                     <button type="submit">Envoyer</button>
                 </fieldset>
             </form>
@@ -159,7 +165,7 @@
     </main>
     <footer>
         <nav>
-            <div id="navfooter">
+            <div id="footer-nav">
                 <div>
                     <ul>
                         <li><a href="">item 1</a></li>
@@ -194,7 +200,7 @@
         </nav>
         <div class="footer-contact"><span>Contacter notre webmaster&nbsp;: &ensp;</span><a href="tel:+06094989">Tel:
                 06094989</a>&emsp;<span>Contact: </span><a
-                href="mailto:john.doe@mail.com?subject=From our website">john.doe@mail.com</a></div>
+                href="mailto:john.doe@mail.com">john.doe@mail.com</a></div>
     </footer>
 </body>
 
