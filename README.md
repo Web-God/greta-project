@@ -82,3 +82,7 @@ Ces pages donnent des informations générales sur l'hôtel :
 Google Map
 • formulaire de contact
 
+#MDN Discourse        
+#Forums Sitepoint
+#Forums de webdeveloper.com
+#Meetup
