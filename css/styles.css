@@ -124,6 +124,11 @@ h3 {
   color: tomato;
 }
 
+#footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
   background-color: dodgerblue;
   color: white;
