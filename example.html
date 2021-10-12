@@ -15,11 +15,14 @@
         <div id="header-container">
             <!-- Ceci est une entité HTML : &lt; -->
             <h1>Formation HTML &amp; CSS</h1>
-            <p>Un lien vers la page d'accueil de <a href="https://developer.mozilla.org/fr/" target="_blank">Resources for developers, by developers.</a>.</p>
+            <p>Un lien vers la page d'accueil de <a href="https://developer.mozilla.org/fr/" target="_blank">Resources
+                    for developers, by developers.</a>.</p>
             <h2>Une formation trop bien</h2>
             <p>Souriez !</p>
             <!-- URL valeur relative -->
-            <img src="https://via.placeholder.com/1500x190.png?text=1500+default" alt="Sourire" srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w" sizes="100vw">
+            <img src="https://via.placeholder.com/1500x190.png?text=1500+default" alt="Sourire"
+                srcset="https://via.placeholder.com/1500x190.png?text=1500+default 1500w, https://via.placeholder.com/800x190.png?text=800+default 800w, https://via.placeholder.com/380x190.png?text=380+default 380w"
+                sizes="100vw">
             <!-- URL valeur absolue -->
             <a href="https://www.monsite.fr" title="Tout sur le shifting">Tout sur le shifting</a>
         </div>
@@ -38,29 +41,36 @@
             <h2>Titre de niveau 2</h2>
             <article>
                 <h3>Titre de niveau 3</h3>
+                <h4>Titre de niveau 4</h4>
+                <p><a href="#">lien</a></p>
+                <aside>
                     <h4>Titre de niveau 4</h4>
-                    <p><a href="#">lien</a></p>
-                    <aside>
-                        <h4>Titre de niveau 4</h4>
-                        <p>Aparté</p>
-                    </aside>
-                    <h5>Titre de niveau 5</h5>
-                    <h6>Titre de niveau 6</h6>
-                    <p id="anchor">Ancre</p>
-                    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. <br> Cupiditate soluta
-                        odio quam aliquam voluptate totam doloremque dignissimos harum, architecto quidem incidunt natus
-                        laboriosam sint fuga. <span class="info">Inventore obcaecati quam natus</span>.
-                        <br> Cupiditate accusamus <b>nulla</b>, excepturi dicta magnam totam quas eum obcaecati
-                        reprehenderit mollitia, enim quo earum vero ipsam voluptates sit modi rem repellat dolore
-                        repudiandae ab. <span class="info">Quae consectetur</span> similique distinctio et.
-                        Similique rem <em>provident minus ipsa repudiandae</em>, amet sequi deserunt
-                        <i>voluptate</i>, hic, quas quo sapiente! Repellendus assumenda magni, accusantium, dolorem
-                        ipsum ex, suscipit harum eligendi consequatur amet sequi illum <span class="info">cupiditate dolores</span>
-                    </p>
-                    <hr>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam molestias assumenda beatae obcaecati soluta excepturi modi iusto similique officiis! Itaque quisquam fugit beatae libero nisi neque ratione, aut dolor.
-                    Similique minima aperiam unde impedit sit a porro quasi molestias officiis atque vitae aspernatur quod sequi soluta ratione fugit iusto blanditiis deleniti esse velit quibusdam, tempora quis? Iste, nesciunt amet!
-                    Voluptas facilis consequuntur aperiam fuga qui assumenda quis quasi suscipit consequatur eum cupiditate iste quaerat consectetur debitis pariatur excepturi magnam sed ut accusantium, distinctio recusandae molestiae laudantium id. Incidunt, consectetur?</p>
+                    <p>Aparté</p>
+                </aside>
+                <h5>Titre de niveau 5</h5>
+                <h6>Titre de niveau 6</h6>
+                <p id="anchor">Ancre</p>
+                <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. <br> Cupiditate soluta
+                    odio quam aliquam voluptate totam doloremque dignissimos harum, architecto quidem incidunt natus
+                    laboriosam sint fuga. <span class="info">Inventore obcaecati quam natus</span>.
+                    <br> Cupiditate accusamus <b>nulla</b>, excepturi dicta magnam totam quas eum obcaecati
+                    reprehenderit mollitia, enim quo earum vero ipsam voluptates sit modi rem repellat dolore
+                    repudiandae ab. <span class="info">Quae consectetur</span> similique distinctio et.
+                    Similique rem <em>provident minus ipsa repudiandae</em>, amet sequi deserunt
+                    <i>voluptate</i>, hic, quas quo sapiente! Repellendus assumenda magni, accusantium, dolorem
+                    ipsum ex, suscipit harum eligendi consequatur amet sequi illum <span class="info">cupiditate
+                        dolores</span>
+                </p>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam molestias assumenda beatae
+                    obcaecati soluta excepturi modi iusto similique officiis! Itaque quisquam fugit beatae libero nisi
+                    neque ratione, aut dolor.
+                    Similique minima aperiam unde impedit sit a porro quasi molestias officiis atque vitae aspernatur
+                    quod sequi soluta ratione fugit iusto blanditiis deleniti esse velit quibusdam, tempora quis? Iste,
+                    nesciunt amet!
+                    Voluptas facilis consequuntur aperiam fuga qui assumenda quis quasi suscipit consequatur eum
+                    cupiditate iste quaerat consectetur debitis pariatur excepturi magnam sed ut accusantium, distinctio
+                    recusandae molestiae laudantium id. Incidunt, consectetur?</p>
             </article>
         </section>
         <section>
@@ -150,8 +160,10 @@
             <h2>Formulaire de Contact</h2>
             <form action="/contact.php" method="post">
                 <fieldset>
-                    <label for="username">Pseudonyme</label>
-                    <input type="text" id="username" name="username" placeholder="Pseudonyme" required>
+                    <label for="name">Nom</label>
+                    <input type="text" id="rname" name="name" placeholder="Votre nom" required>
+                    <label for="age"> Age </label>
+                    <input type="number" id="age" name="age" step="1">
                     <label for="phone">Téléphone</label>
                     <input type="number" id="phone" name="phone" placeholder="+33 6 06 06 06 06">
                     <label for="email">Email</label>
@@ -159,38 +171,68 @@
                     <button type="submit" id="submit">Envoyer</button>
                 </fieldset>
             </form>
+            <h2>Formulaire de connexion</h2>
+            <form>
+                <label for="username">Pseudonyme</label>
+                <input type="text" id="username" name="username" placeholder="Pseudonyme" required>
+                <label for="user-password">Password: </label>
+                <input type="password" id="user-password" name="user-password" required>
+            </form>
+            <h2>Votre expérience</h2>
+            <form>
+                <label for="html">HTML</label>
+                <span>Débutant</span><input type="range" id="html" name="html" min="0" max="5" step="1"><span>Expert</span>
+                <label for="css">CSS</label>
+                <span>Débutant</span><input type="range" id="css" name="css" min="0" max="5" step="1"><span>Expert</span>
+                <label for="js">JavaScript</label>
+                <span>Débutant</span><input type="range" id="js" name="js" min="0" max="5" step="1"><span>Expert</span>
+            </form>
+            <h2>Quel est votre navigateur préféré ?</h2>
+            <form action="/quiz.php" method="post">
+                <label for="chrome">Chrome</label>
+                <input type="checkbox" name="browser" id="chrome" value="chrome">
+                <label for="firefox">Firefox for Developper</label>
+                <input type="checkbox" name=" browser" id="firefox" value="firefox">
+                <label for="edge">Edge</label>
+                <input type="checkbox" name="browser" id="edge" value="edge">
+            </form>
+            <form action="quiz.php" method="post">
+                <label for="front">Front end</label>
+                <input type="radio" name="dev" id="front" value="front">
+                <label for="back">Back end</label>
+                <input type="radio" name="dev" id="back" value="back">
+            </form>
         </section>
     </main>
     <footer>
         <nav>
             <div id="footer-nav">
-                    <ul>
-                        <li><a href="">item 1</a></li>
-                        <li><a href="">item 2</a></li>
-                        <li><a href="">item 3</a></li>
-                        <li><a href="">item 4</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">item 1</a></li>
-                        <li><a href="">item 2</a></li>
-                        <li><a href="">item 3</a></li>
-                        <li><a href="">item 4</a></li>
-                    </ul>
-                    <ul>
-                        <li>Play more music 🎸</li>
-                        <li>Read more books 📚</li>
-                    </ul>
-                    <ul>
-                        <li><a href="">item 1</a></li>
-                        <li><a href="">item 2</a></li>
-                        <li><a href="">item 3</a></li>
-                        <li><a href="#anchor">Ancre</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="">item 1</a></li>
+                    <li><a href="">item 2</a></li>
+                    <li><a href="">item 3</a></li>
+                    <li><a href="">item 4</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">item 1</a></li>
+                    <li><a href="">item 2</a></li>
+                    <li><a href="">item 3</a></li>
+                    <li><a href="">item 4</a></li>
+                </ul>
+                <ul>
+                    <li>Play more music 🎸</li>
+                    <li>Read more books 📚</li>
+                </ul>
+                <ul>
+                    <li><a href="">item 1</a></li>
+                    <li><a href="">item 2</a></li>
+                    <li><a href="">item 3</a></li>
+                    <li><a href="#anchor">Ancre</a></li>
+                </ul>
             </div>
         </nav>
         <div class="footer-contact"><span>Contacter notre webmaster&nbsp;: &ensp;</span><a href="tel:+06094989">Tel:
-                06094989</a>&emsp;<span>Contact: </span><a
-                href="mailto:john.doe@mail.com">john.doe@mail.com</a></div>
+                06094989</a>&emsp;<span>Contact: </span><a href="mailto:john.doe@mail.com">john.doe@mail.com</a></div>
     </footer>
 </body>
 
