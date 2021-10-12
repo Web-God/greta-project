@@ -85,6 +85,14 @@ h3 {
   color: darkmagenta;
 }
 
+#submit {
+  margin-top: 1em;
+  padding: 0.5em 0.7em;
+  color: white;
+  background-color: tomato;
+  border-radius: 5px;
+}
+
 #main-nav {
   background-color: darkgoldenrod;
   padding: 10px;
@@ -130,6 +138,13 @@ h3 {
   padding: 1em 2em;
   margin-top: 3em;
   background-color: sienna;
+}
+#footer-nav li a {
+  color: white;
+  transition: color 0.5s;
+}
+#footer-nav li a:hover {
+  color: #444;
 }
 
 .card {

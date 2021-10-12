@@ -152,13 +152,13 @@
             <h2>Formulaire de Contact</h2>
             <form action="/contact.php" method="post">
                 <fieldset>
-                    <label for="name">Nom</label>
-                    <input type="text" id="name" name="firstname" placeholder="Nom et prénom" required>
+                    <label for="username" aria-placeholder="pseudonyme">Pseudonyme</label>
+                    <input type="text" id="username" name="username" placeholder="Pseudonyme" required>
                     <label for="phone" aria-placeholder="Téléphone">Téléphone</label>
                     <input type="number" id="phone" name="phone" placeholder="+33 6 06 06 06 06">
                     <label for="email" aria-placeholder="Email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Votre Email" required>
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" id="submit">Envoyer</button>
                 </fieldset>
             </form>
         </section>
