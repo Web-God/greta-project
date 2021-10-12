@@ -29,7 +29,13 @@ h3 {
     padding: .5em .7em;
     color: white;
     background-color: tomato;
+    border: none;
     border-radius: 5px;
+    transition: all .6s;
+    &:hover {
+        color: tomato;
+        background-color: white;
+    }
 }
 #main-nav{
     background-color: darkgoldenrod;
