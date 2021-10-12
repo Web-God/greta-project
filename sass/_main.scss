@@ -73,12 +73,14 @@ h3 {
     padding: 1em 2em;
     margin-top: 3em;
     background-color: sienna;
-    li {
-        a{
-            color: white;
-            transition: color .5s;
-            &:hover{
-                color: #444;
+    ul {
+        li {
+            a {
+                color: white;
+                transition: color .5s;
+                &:hover{
+                    color: #444;
+                }
             }
         }
     }

@@ -139,11 +139,11 @@ h3 {
   margin-top: 3em;
   background-color: sienna;
 }
-#footer-nav li a {
+#footer-nav ul li a {
   color: white;
   transition: color 0.5s;
 }
-#footer-nav li a:hover {
+#footer-nav ul li a:hover {
   color: #444;
 }
 
