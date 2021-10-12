@@ -150,14 +150,14 @@
         </section>
         <section>
             <h2>Formulaire de Contact</h2>
-            <form action="contact.php" method="post">
+            <form action="/contact.php" method="post">
                 <fieldset>
                     <label for="name">Nom</label>
-                    <input type="text" id="name">
-                    <label for="phone">Téléphone</label>
-                    <input type="number" id="phone">
+                    <input type="text" id="name" name="firstname" placeholder="Nom et prénom">
+                    <label for="phone" aria-placeholder="Téléphone">Téléphone</label>
+                    <input type="number" id="phone" name="phone" placeholder="Téléphone">
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email" placeholder="Votre Email">
                     <button type="submit">Envoyer</button>
                 </fieldset>
             </form>
