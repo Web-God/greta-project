@@ -196,12 +196,23 @@
                 <label for="edge">Edge</label>
                 <input type="checkbox" name="browser" id="edge" value="edge">
             </form>
-            <form action="quiz.php" method="post">
+            <h2>Quel développeur suis-je ?</h2>
+            <form action="/quiz.php" method="post">
                 <label for="front">Front end</label>
                 <input type="radio" name="dev" id="front" value="front">
                 <label for="back">Back end</label>
                 <input type="radio" name="dev" id="back" value="back">
             </form>
+            <h2>J'aimerais aussi apprendre une SPA</h2>
+            <label for="spa">Single Page Application</label>
+            <select name="spa" id="spa" disabled="disabled">
+                <option value="" selected>Sélectionner un framework JavaScript</option>
+                <option value="vue">Vue JS</option>
+                <option value="react">ReactJS</option>
+                <option value="angular">Angular</option>
+                <option value="ember">Ember.js</option>
+                <option value="node">Node.js</option>
+            </select>
         </section>
     </main>
     <footer>
