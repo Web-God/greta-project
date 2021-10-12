@@ -98,6 +98,7 @@ h3 {
 #submit:hover {
   color: tomato;
   background-color: white;
+  border: 1px solid tomato;
 }
 
 #main-nav {
