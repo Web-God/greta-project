@@ -168,6 +168,7 @@
                     <input type="number" id="phone" name="phone" placeholder="+33 6 06 06 06 06">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Votre Email" required>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Commentaires !"></textarea>
                     <button type="submit" id="submit">Envoyer</button>
                 </fieldset>
             </form>
@@ -181,9 +182,11 @@
             <h2>Votre expérience</h2>
             <form>
                 <label for="html">HTML</label>
-                <span>Débutant</span><input type="range" id="html" name="html" min="0" max="5" step="1"><span>Expert</span>
+                <span>Débutant</span><input type="range" id="html" name="html" min="0" max="5"
+                    step="1"><span>Expert</span>
                 <label for="css">CSS</label>
-                <span>Débutant</span><input type="range" id="css" name="css" min="0" max="5" step="1"><span>Expert</span>
+                <span>Débutant</span><input type="range" id="css" name="css" min="0" max="5"
+                    step="1"><span>Expert</span>
                 <label for="js">JavaScript</label>
                 <span>Débutant</span><input type="range" id="js" name="js" min="0" max="5" step="1"><span>Expert</span>
             </form>
@@ -205,7 +208,8 @@
             </form>
             <h2>J'aimerais aussi apprendre une SPA</h2>
             <label for="spa">Single Page Application</label>
-            <select name="spa" id="spa" disabled="disabled">
+            <!--disabled="disabled"-->
+            <select name="spa" id="spa">
                 <option value="" selected>Sélectionner un framework JavaScript</option>
                 <option value="vue">Vue JS</option>
                 <option value="react">ReactJS</option>
@@ -213,6 +217,20 @@
                 <option value="ember">Ember.js</option>
                 <option value="node">Node.js</option>
             </select>
+            <h2>Quel langage voulez-vous maîtriser ?</h2>
+            <input list="languages" id="languages" name="languages">
+            <datalist id="languages">
+                <option value="python">Python</option>
+                <option value="php">PHP</option>
+                <option value="java">Java</option>
+                <option value="javascript">JavaScript</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+                <option value="ruby">Ruby</option>
+                <option value="cplus">C++</option>
+                <option value="csharp">C#</option>
+                <option value="perl">Perl</option>
+            </datalist>
         </section>
     </main>
     <footer>
